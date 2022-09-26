@@ -9,7 +9,6 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.os.Build;
 import android.os.IBinder;
@@ -22,9 +21,9 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.widget.Toast;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
-import edu.tamu.cse.lenss.edgeKeeper.utils.EKConstants;
 import edu.tamu.cse.lenss.edgeKeeper.server.EKHandler;
 import edu.tamu.cse.lenss.edgeKeeper.utils.EKProperties;
 import edu.tamu.cse.lenss.edgeKeeper.utils.EKUtils;
@@ -34,6 +33,8 @@ import edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler;
 
 import org.apache.curator.framework.state.ConnectionState;
 import org.apache.zookeeper.server.quorum.QuorumPeer.ServerState;
+
+
 
 
 /**
@@ -88,7 +89,7 @@ public class EKService extends Service {
 
         Toast.makeText(this, "EK Service is starting", Toast.LENGTH_SHORT).show();
         logger.info("EK Service is starting. ");
-        showNotification("Starting");
+        showNotification("Starting", false);
 
         ekProperties.load(PreferenceManager.getDefaultSharedPreferences(this));
         logger.info("Loaded config: "+ ekProperties.toString());
@@ -131,13 +132,13 @@ public class EKService extends Service {
 
                 @Override
                 public void onError(String string) {
-                    showNotification(string);
+                    showNotification(string, true);
 
                 }
 
 
                 void putNotice(){
-                    showNotification("GNS:"+gnsState+", ZKClient:"+zkClientState+", ZKServer:"+zkServerState);
+                    showNotification("GNS:"+gnsState+", ZKClient:"+zkClientState+", ZKServer:"+zkServerState, false);
                 }
 
 
@@ -152,7 +153,13 @@ public class EKService extends Service {
         return START_NOT_STICKY;
     }
 
-    private void showNotification(String message) {
+    //this function
+    private void updateGridView(){
+
+    }
+
+
+    private void showNotification(String message, boolean error) {
         String input = intent.getStringExtra("inputExtra");
         createNotificationChannel();
         Intent notificationIntent = new Intent(this, MainActivity.class);
@@ -175,7 +182,89 @@ public class EKService extends Service {
             this.onDestroy();
         }
 
+        processEdgeReplicaInfo(message, error);
+
     }
+
+
+    //puts current cloud and zkClient status into the GridViewStore class for MainActivity to consume.
+    private void processEdgeReplicaInfo(String message, boolean error) {
+
+        try {
+
+            //Create Wrapper object with default value
+            Wrapper wrap = new Wrapper(-1, -1, -1);
+
+            //parse GNS/cloud information
+            if(!error && message!=null && message.contains("GNS")){
+
+                //get GNS/Cloud status
+                String[] tokens = message.split(", ");
+                String GNS_status = tokens[0].split(":")[1];
+                if(GNS_status==null) {
+                    wrap.GNSConnected = -1;
+                }else{
+                    if(GNS_status.equals("null")){
+                        wrap.GNSConnected = -1;
+                    }else if (GNS_status.equals(GNSClientHandler.ConnectionState.CONNECTED.toString()) || GNS_status.equals("RECONNECTED")) {
+                        wrap.GNSConnected = 0;
+                    } else if (GNS_status.equals(GNSClientHandler.ConnectionState.DISCONNECTED.toString())) {
+                        wrap.GNSConnected = 1;
+                    }else if (GNS_status.equals(GNSClientHandler.ConnectionState.REGISTRATION_FAILED.toString())){
+                        wrap.GNSConnected = 2;
+                    }
+                }
+                System.out.println("xyz break");
+
+
+
+                //get zkClient status
+                String zkclient_status = tokens[1].split(":")[1];
+                if(zkclient_status==null){
+                    wrap.zkClientConnected = -1;
+                }else {
+                    if(zkclient_status.equals("null")){
+                        wrap.zkClientConnected = -1;
+                    } else if (zkclient_status.equals("CONNECTED") || zkclient_status.equals("RECONNECTED")) {
+                        wrap.zkClientConnected = 0;
+                    } else if(zkclient_status.equals("SUSPENDED")){
+                        wrap.zkClientConnected = 1;
+                    }else if(zkclient_status.equals("LOST")){
+                        wrap.zkClientConnected = 2;
+                    }
+                }
+
+                //get zkServer status
+                String zkserver_status = tokens[2].split(":")[1];
+                if(zkserver_status==null){
+                    wrap.zkServerConnection = -1;
+                }else{
+                    if(zkserver_status.equals("null")){
+                        wrap.zkServerConnection = -1;
+                    }else if(zkserver_status.equals(ServerState.LEADING.toString())){
+                        wrap.zkServerConnection = 0;
+                    }else if(zkserver_status.equals(ServerState.FOLLOWING.toString())){
+                        wrap.zkServerConnection = 1;
+                    }else if(zkserver_status.equals(ServerState.OBSERVING.toString())){
+                        wrap.zkServerConnection = 2;
+                    }else if(zkserver_status.equals(ServerState.LOOKING.toString())){
+                        wrap.zkServerConnection = 3;
+                    }
+
+                }
+            }
+
+
+            ValueStore.GNS_status.set(wrap.GNSConnected);
+            ValueStore.ZKClient_status.set(wrap.zkClientConnected);
+            ValueStore.ZKServer_status.set(wrap.zkServerConnection);
+
+        }catch (Exception e){
+            logger.log(Level.ALL, "EXCEPTION in EKService processEdgeReplicaInfo(): " + e);
+        }
+
+    }
+
     private void createNotificationChannel() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
