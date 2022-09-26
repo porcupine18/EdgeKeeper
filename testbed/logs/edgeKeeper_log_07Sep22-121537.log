@@ -1,0 +1,77 @@
+[ALL  ] 2022-09-07 12:15:37,555 (EKUtils): Validating all properties:
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties P12_FILE_PATH: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties P12_FILE_PASSWORD: atakatak
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties GNS_SERVER_ADDRESS: 18.189.77.68
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties ENABLE_MASTER: true
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties EDGE_KEEPER_MASTER: auto
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties NUMBER_OF_REPLICA: 1
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties NEIGHBOR_IPS: auto
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties ENABLE_REAL_IP_REPORTING: false
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties IS_RUNNING_ON_CLOUD: false
+[DEBUG] 2022-09-07 12:15:37,556 (EKUtils): validating Properties DEVICE_STATUS_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties TOPOLOGY_INTERVAL: 10000
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties TOPOLOGY_CLEANUP_ITERATION: 4
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties MERGE_GUID_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties MERGE_MDFS_INTERVAL: 60000
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties tickTime: 2000
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties initLimit: 10
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties syncLimit: 5
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties dataDir: tmp/zookeeper
+[DEBUG] 2022-09-07 12:15:37,557 (EKUtils): validating Properties clientPort: 2181
+[INFO ] 2022-09-07 12:15:37,558 (EKMainLinux): EK properties: {clientPort=2181, EDGE_KEEPER_MASTER=auto, DEVICE_STATUS_INTERVAL=30000, TOPOLOGY_INTERVAL=10000, MERGE_MDFS_INTERVAL=60000, IS_RUNNING_ON_CLOUD=false, syncLimit=5, tickTime=2000, P12_FILE_PATH=/home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12, MERGE_GUID_INTERVAL=30000, NEIGHBOR_IPS=auto, initLimit=10, NUMBER_OF_REPLICA=1, ENABLE_REAL_IP_REPORTING=false, GNS_SERVER_ADDRESS=18.189.77.68, dataDir=tmp/zookeeper, TOPOLOGY_CLEANUP_ITERATION=4, P12_FILE_PASSWORD=atakatak, ENABLE_MASTER=true}
+[DEBUG] 2022-09-07 12:15:37,564 (EKMainLinux): Registered shutdown hook
+[DEBUG] 2022-09-07 12:15:37,564 (EKHandler): Starting GNS service. ConcurrentServices: 1
+[ALL  ] 2022-09-07 12:15:37,564 (EKUtils): Validating all properties:
+[DEBUG] 2022-09-07 12:15:37,564 (EKUtils): validating Properties P12_FILE_PATH: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12
+[DEBUG] 2022-09-07 12:15:37,564 (EKUtils): validating Properties P12_FILE_PASSWORD: atakatak
+[DEBUG] 2022-09-07 12:15:37,564 (EKUtils): validating Properties GNS_SERVER_ADDRESS: 18.189.77.68
+[DEBUG] 2022-09-07 12:15:37,564 (EKUtils): validating Properties ENABLE_MASTER: true
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties EDGE_KEEPER_MASTER: auto
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties NUMBER_OF_REPLICA: 1
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties NEIGHBOR_IPS: auto
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties ENABLE_REAL_IP_REPORTING: false
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties IS_RUNNING_ON_CLOUD: false
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties DEVICE_STATUS_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties TOPOLOGY_INTERVAL: 10000
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties TOPOLOGY_CLEANUP_ITERATION: 4
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties MERGE_GUID_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties MERGE_MDFS_INTERVAL: 60000
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties tickTime: 2000
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties initLimit: 10
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties syncLimit: 5
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties dataDir: tmp/zookeeper
+[DEBUG] 2022-09-07 12:15:37,565 (EKUtils): validating Properties clientPort: 2181
+[ALL  ] 2022-09-07 12:15:37,565 (EKHandler): Validated all properties
+[DEBUG] 2022-09-07 12:15:37,567 (EKUtils): p12Filepath: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12Stripped accountname: tesla13.distressnet.org
+[DEBUG] 2022-09-07 12:15:38,127 (GNSClientHandler): Could not connect to old GNS server. Trying to find new GNS Server
+[ALL  ] 2022-09-07 12:15:38,127 (GNSClientHandler): Now trying multithread for connecting GNS server
+[ALL  ] 2022-09-07 12:15:38,128 (GNSClientHandler): [GNS] Trying to connect to GNS server: 18.189.77.68
+[ALL  ] 2022-09-07 12:16:02,190 (GNSClientHandler): Could not connect to GNS server18.189.77.68
+[DEBUG] 2022-09-07 12:16:02,192 (GNSClientHandler): Could not connect to any GNS server. 
+java.util.concurrent.ExecutionException: java.io.IOException: Unable to connect to any reconfigurator : [/18.189.77.68:2278]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at java.util.concurrent.AbstractExecutorService.doInvokeAny(AbstractExecutorService.java:193)
+	at java.util.concurrent.AbstractExecutorService.invokeAny(AbstractExecutorService.java:215)
+	at edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler.tryConnectingGNS(GNSClientHandler.java:265)
+	at edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler.getOwnGUID(GNSClientHandler.java:175)
+	at edu.tamu.cse.lenss.edgeKeeper.server.EKHandler.run(EKHandler.java:144)
+Caused by: java.io.IOException: Unable to connect to any reconfigurator : [/18.189.77.68:2278]
+	at edu.umass.cs.reconfiguration.ReconfigurableAppClientAsync.checkConnectivity(ReconfigurableAppClientAsync.java:1824)
+	at edu.umass.cs.gnsclient.client.GNSClient.checkConnectivity(GNSClient.java:236)
+	at edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler$ConnectSingleGNS.call(GNSClientHandler.java:207)
+	at edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler$ConnectSingleGNS.call(GNSClientHandler.java:194)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[ERROR] 2022-09-07 12:16:02,197 (GNSClientHandler): ownGUID is still null even after trying to coneecting to GNS
+[FATAL] 2022-09-07 12:16:02,197 (EKHandler): Could not fetch Own GUID entry
+[INFO ] 2022-09-07 12:16:02,198 (EKHandler): EdgeKeeper shutting down
+[INFO ] 2022-09-07 12:16:02,199 (GNSClientHandler): Terminated edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler
+[DEBUG] 2022-09-07 12:16:02,199 (EKHandler): Stopped EdgeKeeper. ConcurrentServices: 0
+[INFO ] 2022-09-07 12:16:02,200 (EKHandler): EdgeKeeper shutting down
+[INFO ] 2022-09-07 12:16:02,200 (GNSClientHandler): Terminated edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler
+[DEBUG] 2022-09-07 12:16:02,200 (EKHandler): Stopped EdgeKeeper. ConcurrentServices: -1

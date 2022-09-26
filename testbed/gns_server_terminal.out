@@ -1,0 +1,401 @@
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove 'paxos_logs': No such file or directory
+rm: cannot remove 'reconfiguration_DB': No such file or directory
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+Can't load log handler "java.util.logging.FileHandler"
+java.nio.file.NoSuchFileException: /var/log/distressnet/gns-server/gnsserver-jul.log.lck
+java.nio.file.NoSuchFileException: /var/log/distressnet/gns-server/gnsserver-jul.log.lck
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:177)
+	at java.nio.channels.FileChannel.open(FileChannel.java:287)
+Can't load log handler "java.util.logging.FileHandler"	at java.nio.channels.FileChannel.open(FileChannel.java:335)
+
+	at java.util.logging.FileHandler.openFiles(FileHandler.java:479)
+	at java.util.logging.FileHandler.<init>(FileHandler.java:282)java.nio.file.NoSuchFileException: /var/log/distressnet/gns-server/gnsserver-jul.log.lck
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.nio.file.NoSuchFileException: /var/log/distressnet/gns-server/gnsserver-jul.log.lck	at java.lang.Class.newInstance(Class.java:442)
+
+	at java.util.logging.LogManager$5.run(LogManager.java:966)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.logging.LogManager.loadLoggerHandlers(LogManager.java:958)
+	at java.util.logging.LogManager.initializeGlobalHandlers(LogManager.java:1578)	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+
+	at java.util.logging.LogManager.access$1500(LogManager.java:145)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at java.util.logging.LogManager$RootLogger.accessCheckedHandlers(LogManager.java:1667)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at java.util.logging.Logger.getHandlers(Logger.java:1777)
+	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:177)	at java.util.logging.Logger.log(Logger.java:735)
+
+	at java.nio.channels.FileChannel.open(FileChannel.java:287)	at java.util.logging.Logger.doLog(Logger.java:765)
+
+	at java.nio.channels.FileChannel.open(FileChannel.java:335)	at java.util.logging.Logger.log(Logger.java:851)
+
+	at edu.umass.cs.utils.Config.readConfigFile(Config.java:403)	at java.util.logging.FileHandler.openFiles(FileHandler.java:479)
+
+	at edu.umass.cs.utils.Config.<init>(Config.java:97)	at java.util.logging.FileHandler.<init>(FileHandler.java:282)
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at edu.umass.cs.utils.Config.register(Config.java:138)
+
+	at edu.umass.cs.gigapaxos.PaxosConfig.load(PaxosConfig.java:89)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at edu.umass.cs.gigapaxos.PaxosConfig.load(PaxosConfig.java:100)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at edu.umass.cs.gigapaxos.PaxosConfig.<clinit>(PaxosConfig.java:77)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.main(ReconfigurableNode.java:406)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.logging.LogManager$5.run(LogManager.java:966)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.logging.LogManager.loadLoggerHandlers(LogManager.java:958)
+	at java.util.logging.LogManager.initializeGlobalHandlers(LogManager.java:1578)
+	at java.util.logging.LogManager.access$1500(LogManager.java:145)
+	at java.util.logging.LogManager$RootLogger.accessCheckedHandlers(LogManager.java:1667)
+	at java.util.logging.Logger.getHandlers(Logger.java:1777)
+	at java.util.logging.Logger.log(Logger.java:735)
+	at java.util.logging.Logger.doLog(Logger.java:765)
+	at java.util.logging.Logger.log(Logger.java:851)
+	at edu.umass.cs.utils.Config.readConfigFile(Config.java:403)
+	at edu.umass.cs.utils.Config.<init>(Config.java:97)
+	at edu.umass.cs.utils.Config.register(Config.java:138)
+	at edu.umass.cs.gigapaxos.PaxosConfig.load(PaxosConfig.java:89)
+	at edu.umass.cs.gigapaxos.PaxosConfig.load(PaxosConfig.java:100)
+	at edu.umass.cs.gigapaxos.PaxosConfig.<clinit>(PaxosConfig.java:77)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.main(ReconfigurableNode.java:406)
+testStringConstructor NullDemandProfiletestStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [  succeeded
+reconfigurator1:/192.168.2.172:2178 test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/192.168.2.172:24403 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/192.168.2.172:2478 ready
+Stopping GNS Server
+./gns-server_startup.sh: line 62: kill: (110811) - No such process
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove 'clientKeyDB': No such file or directory
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfiletestStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/192.168.2.172:24403  succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ reconfigurator1:/192.168.2.172:2178 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/192.168.2.172:2478 ready
+Stopping GNS Server
+./gns-server_startup.sh: line 62: kill: (111087) - No such process
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ reconfigurator1:/192.168.2.172:2178 testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/192.168.2.172:24403 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/192.168.2.172:2478 ready
+java.io.IOException: Connection timed out
+java.io.IOException: Connection timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)
+	at java.lang.Thread.run(Thread.java:750)
+
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)
+	at java.lang.Thread.run(Thread.java:750)
+java.io.IOException: Connection timed outjava.io.IOException: Connection timed out
+
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)
+
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)
+
+	at java.lang.Thread.run(Thread.java:750)	at java.lang.Thread.run(Thread.java:750)
+
+java.io.IOException: Connection timed outjava.io.IOException: Connection timed out
+
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:831)	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at java.lang.Thread.run(Thread.java:750)
+
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:831)
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)
+	at java.lang.Thread.run(Thread.java:750)
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor testStringConstructor NullDemandProfileNullDemandProfile succeeded succeeded
+
+testJSONConstructor testJSONConstructor NullDemandProfileNullDemandProfile succeeded
+ succeeded
+test NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ Initializing gigapaxos server [ GNSApp1:/192.168.2.172:24403 reconfigurator1:/192.168.2.172:2178 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/0:0:0:0:0:0:0:0:2478 ready
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ reconfigurator1:/10.228.170.0:2178 testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/10.228.170.0:24403 Exception in thread "main" java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:78)
+	at edu.umass.cs.nio.NIOTransport.initSelector(NIOTransport.java:1634)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:252)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:310)
+	at edu.umass.cs.nio.MessageNIOTransport.<init>(MessageNIOTransport.java:201)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.<init>(ReconfigurableNode.java:260)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode$DefaultReconfigurableNode.<init>(ReconfigurableNode.java:318)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.main(ReconfigurableNode.java:469)
+Exception in thread "main" java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:78)
+	at edu.umass.cs.nio.NIOTransport.initSelector(NIOTransport.java:1634)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:252)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:310)
+	at edu.umass.cs.nio.MessageNIOTransport.<init>(MessageNIOTransport.java:201)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.<init>(ReconfigurableNode.java:260)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode$DefaultReconfigurableNode.<init>(ReconfigurableNode.java:318)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.main(ReconfigurableNode.java:469)
+Stopping GNS Server
+./gns-server_startup.sh: line 62: kill: (62109) - No such process
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove 'clientKeyDB': No such file or directory
+rm: cannot remove 'reconfiguration_DB': No such file or directory
+rm: cannot remove 'derby.log': No such file or directory
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/10.228.170.0:24403 testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ reconfigurator1:/10.228.170.0:2178 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/10.228.170.0:2478 ready
+java.io.IOException: Connection timed outjava.io.IOException: Connection timed out
+
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)
+
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)
+	at java.lang.Thread.run(Thread.java:750)	at java.lang.Thread.run(Thread.java:750)
+
+java.io.IOException: Connection timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)
+	at java.lang.Thread.run(Thread.java:750)
+java.io.IOException: Connection timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at edu.umass.cs.nio.NIOTransport.read(NIOTransport.java:800)
+	at edu.umass.cs.nio.NIOTransport.processSelectedKeys(NIOTransport.java:636)
+	at edu.umass.cs.nio.NIOTransport.run(NIOTransport.java:533)
+	at java.lang.Thread.run(Thread.java:750)
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfiletestStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+ succeeded
+Initializing gigapaxos server [ test NullDemandProfile succeeded
+GNSApp1:/10.228.170.0:24403 Initializing gigapaxos server [ reconfigurator1:/10.228.170.0:2178 Exception in thread "main" java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:78)
+	at edu.umass.cs.nio.NIOTransport.initSelector(NIOTransport.java:1634)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:252)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:310)
+	at edu.umass.cs.nio.MessageNIOTransport.<init>(MessageNIOTransport.java:201)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.<init>(ReconfigurableNode.java:260)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode$DefaultReconfigurableNode.<init>(ReconfigurableNode.java:318)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.main(ReconfigurableNode.java:469)
+Exception in thread "main" java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:78)
+	at edu.umass.cs.nio.NIOTransport.initSelector(NIOTransport.java:1634)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:252)
+	at edu.umass.cs.nio.NIOTransport.<init>(NIOTransport.java:310)
+	at edu.umass.cs.nio.MessageNIOTransport.<init>(MessageNIOTransport.java:201)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.<init>(ReconfigurableNode.java:260)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode$DefaultReconfigurableNode.<init>(ReconfigurableNode.java:318)
+	at edu.umass.cs.reconfiguration.ReconfigurableNode.main(ReconfigurableNode.java:469)
+Stopping GNS Server
+./gns-server_startup.sh: line 62: kill: (671684) - No such process
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove 'reconfiguration_DB': No such file or directory
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfiletestStringConstructor NullDemandProfile succeeded
+ succeeded
+test NullDemandProfile succeeded
+testJSONConstructor NullDemandProfileInitializing gigapaxos server [ reconfigurator1:/10.228.170.0:2178  succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/192.168.1.234:24403 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/0:0:0:0:0:0:0:0:2478 ready
+Stopping GNS Server
+./gns-server_startup.sh: line 62: kill: (672685) - No such process
+Starting GNS server
+=================Deleting old replica logs
+rm: cannot remove '/var/lib/mongodb/UMASS_GNS_DB_GNSApp1-*': No such file or directory
+Starting Active replica server
+Starting Reconfigurator
+testStringConstructor NullDemandProfiletestStringConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+testJSONConstructor NullDemandProfile succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ GNSApp1:/192.168.1.234:24403  succeeded
+test NullDemandProfile succeeded
+Initializing gigapaxos server [ reconfigurator1:/192.168.1.234:2178 log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.mchange.v2.log.MLog).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]; server[GNSApp1] ready
+]; server[reconfigurator1] ready
+RC.reconfigurator1:HTTP:/192.168.1.234:2478 ready

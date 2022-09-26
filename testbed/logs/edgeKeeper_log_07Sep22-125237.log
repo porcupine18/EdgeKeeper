@@ -1,0 +1,480 @@
+[ALL  ] 2022-09-07 12:52:37,868 (EKUtils): Validating all properties:
+[DEBUG] 2022-09-07 12:52:37,868 (EKUtils): validating Properties P12_FILE_PATH: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12
+[DEBUG] 2022-09-07 12:52:37,868 (EKUtils): validating Properties P12_FILE_PASSWORD: atakatak
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties GNS_SERVER_ADDRESS: 192.168.2.172
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties ENABLE_MASTER: true
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties EDGE_KEEPER_MASTER: auto
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties NUMBER_OF_REPLICA: 1
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties NEIGHBOR_IPS: auto
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties ENABLE_REAL_IP_REPORTING: false
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties IS_RUNNING_ON_CLOUD: false
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties DEVICE_STATUS_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties TOPOLOGY_INTERVAL: 10000
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties TOPOLOGY_CLEANUP_ITERATION: 4
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties MERGE_GUID_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties MERGE_MDFS_INTERVAL: 60000
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties tickTime: 2000
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties initLimit: 10
+[DEBUG] 2022-09-07 12:52:37,869 (EKUtils): validating Properties syncLimit: 5
+[DEBUG] 2022-09-07 12:52:37,870 (EKUtils): validating Properties dataDir: tmp/zookeeper
+[DEBUG] 2022-09-07 12:52:37,870 (EKUtils): validating Properties clientPort: 2181
+[INFO ] 2022-09-07 12:52:37,870 (EKMainLinux): EK properties: {clientPort=2181, EDGE_KEEPER_MASTER=auto, DEVICE_STATUS_INTERVAL=30000, TOPOLOGY_INTERVAL=10000, MERGE_MDFS_INTERVAL=60000, IS_RUNNING_ON_CLOUD=false, syncLimit=5, tickTime=2000, P12_FILE_PATH=/home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12, MERGE_GUID_INTERVAL=30000, NEIGHBOR_IPS=auto, initLimit=10, NUMBER_OF_REPLICA=1, ENABLE_REAL_IP_REPORTING=false, GNS_SERVER_ADDRESS=192.168.2.172, dataDir=tmp/zookeeper, TOPOLOGY_CLEANUP_ITERATION=4, P12_FILE_PASSWORD=atakatak, ENABLE_MASTER=true}
+[DEBUG] 2022-09-07 12:52:37,877 (EKHandler): Starting GNS service. ConcurrentServices: 1
+[DEBUG] 2022-09-07 12:52:37,877 (EKMainLinux): Registered shutdown hook
+[ALL  ] 2022-09-07 12:52:37,877 (EKUtils): Validating all properties:
+[DEBUG] 2022-09-07 12:52:37,877 (EKUtils): validating Properties P12_FILE_PATH: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12
+[DEBUG] 2022-09-07 12:52:37,877 (EKUtils): validating Properties P12_FILE_PASSWORD: atakatak
+[DEBUG] 2022-09-07 12:52:37,877 (EKUtils): validating Properties GNS_SERVER_ADDRESS: 192.168.2.172
+[DEBUG] 2022-09-07 12:52:37,877 (EKUtils): validating Properties ENABLE_MASTER: true
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties EDGE_KEEPER_MASTER: auto
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties NUMBER_OF_REPLICA: 1
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties NEIGHBOR_IPS: auto
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties ENABLE_REAL_IP_REPORTING: false
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties IS_RUNNING_ON_CLOUD: false
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties DEVICE_STATUS_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties TOPOLOGY_INTERVAL: 10000
+[DEBUG] 2022-09-07 12:52:37,878 (EKUtils): validating Properties TOPOLOGY_CLEANUP_ITERATION: 4
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties MERGE_GUID_INTERVAL: 30000
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties MERGE_MDFS_INTERVAL: 60000
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties tickTime: 2000
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties initLimit: 10
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties syncLimit: 5
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties dataDir: tmp/zookeeper
+[DEBUG] 2022-09-07 12:52:37,879 (EKUtils): validating Properties clientPort: 2181
+[ALL  ] 2022-09-07 12:52:37,879 (EKHandler): Validated all properties
+[DEBUG] 2022-09-07 12:52:37,881 (EKUtils): p12Filepath: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12Stripped accountname: tesla13.distressnet.org
+[DEBUG] 2022-09-07 12:52:39,125 (GNSClientHandler): Could not connect to old GNS server. Trying to find new GNS Server
+[ALL  ] 2022-09-07 12:52:39,125 (GNSClientHandler): Now trying multithread for connecting GNS server
+[ALL  ] 2022-09-07 12:52:39,127 (GNSClientHandler): [GNS] Trying to connect to GNS server: 192.168.2.172
+[INFO ] 2022-09-07 12:52:39,201 (GNSClientHandler): [GNS] succesfully connected to GNS server: 192.168.2.172
+[DEBUG] 2022-09-07 12:52:39,201 (GNSClientHandler): Connected with one GNS server: GNSClient38323
+[DEBUG] 2022-09-07 12:52:39,201 (GNSClientHandler): Trying to register to GNS server
+[DEBUG] 2022-09-07 12:52:39,934 (GNSClientHandler): Registration output: EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582
+[INFO ] 2022-09-07 12:52:40,069 (GNSClientHandler): [GNS] Connected with GNS server. Own GUID: tesla13.distressnet.org (EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582)
+[INFO ] 2022-09-07 12:52:40,069 (GNSClientHandler): GNS client got connected
+[DEBUG] 2022-09-07 12:52:40,069 (EKUtils): p12Filepath: /home/mehul/Desktop/TAMU/Fall2022/CSCE685/testbed/certs/tesla13.distressnet.org.p12Stripped accountname: tesla13.distressnet.org
+[ALL  ] 2022-09-07 12:52:40,069 (EKRecord): Updated record= {"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160069}
+[ALL  ] 2022-09-07 12:52:40,071 (ClusterHealthServer): CHS CluserHealthServer initializing DatStore.
+[INFO ] 2022-09-07 12:52:40,086 (CoordinatorServer): Started Coordinator server, listening at 22221
+[DEBUG] 2022-09-07 12:52:40,106 (ZKClientHandler): ZKClient Handler declared. Own GUID=EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582
+[INFO ] 2022-09-07 12:52:40,109 (RequestServer): Started RequestServer for JAVA, listening at 22222
+[INFO ] 2022-09-07 12:52:40,109 (RequestServer): Started RequestServer for CPP, listening at 22223
+[ALL  ] 2022-09-07 12:52:40,113 (GNSClientHandler): checking GNS client connection
+[ALL  ] 2022-09-07 12:52:40,113 (ClusterHealthServer): CHS CluserHealthServer initializing ServerSocket.
+[ALL  ] 2022-09-07 12:52:40,113 (ClusterHealthServer): CHS  Cluster Health Monitor server running....
+[INFO ] 2022-09-07 12:52:40,113 (DNSServer): Starting DNS server at UDP port no. 53
+[ALL  ] 2022-09-07 12:52:40,113 (TopoHandler): Started cloud client
+[ALL  ] 2022-09-07 12:52:40,114 (ZKClientHandler): Zookeeper Client is not connected
+[INFO ] 2022-09-07 12:52:40,115 (TopoHandler): Detected change in own IP address. Closing the previous datagram sockets
+[ALL  ] 2022-09-07 12:52:40,115 (TopoHandler): Opening Datagram Socket for ip : 192.168.2.172
+[FATAL] 2022-09-07 12:52:40,115 (DNSServer): Could not start DNS server. Try running with sudo previledge. 
+java.net.BindException: Permission denied (Bind failed)
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(AbstractPlainDatagramSocketImpl.java:93)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:392)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:242)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:299)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:271)
+	at edu.tamu.cse.lenss.edgeKeeper.dns.DNSServer.run(DNSServer.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[INFO ] 2022-09-07 12:52:40,117 (EKHandler): Detected change in own IP address. Trying to update IP to GNSserver.
+[ALL  ] 2022-09-07 12:52:40,117 (RequestResolver):  Trying to update own IP to the GNS server
+[ALL  ] 2022-09-07 12:52:40,117 (EKRecord): Updated record= {"A":{"record":["192.168.2.172"],"ttl":0},"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160117}
+[ALL  ] 2022-09-07 12:52:40,117 (ZKClientHandler): Trying to update current name record
+[ALL  ] 2022-09-07 12:52:40,117 (EKRecord): fetched record: {"A":{"record":["192.168.2.172"],"ttl":0},"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160117}
+[ALL  ] 2022-09-07 12:52:40,118 (ZKClientHandler): Zookeeper Client is not connected
+[INFO ] 2022-09-07 12:52:40,117 (EKHandler): EdgeKeeper all tasks started
+[ALL  ] 2022-09-07 12:52:40,117 (TopoHandler): Created UDP socket for 192.168.2.172:22226
+[ALL  ] 2022-09-07 12:52:40,116 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[DEBUG] 2022-09-07 12:52:40,117 (TopoReceiver): Started receiver thread for 192.168.2.172
+[ALL  ] 2022-09-07 12:52:40,118 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[WARN ] 2022-09-07 12:52:40,118 (ZKClientHandler): Could not update the data
+[ALL  ] 2022-09-07 12:52:40,118 (GNSClientHandler): Trying to update the record to GNS
+[ALL  ] 2022-09-07 12:52:40,119 (EKRecord): Updated record= {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160119}
+[DEBUG] 2022-09-07 12:52:40,119 (GNSClientHandler): Starting a new thread to update GNS recrd
+[ALL  ] 2022-09-07 12:52:40,119 (ZKClientHandler): Trying to update current name record
+[ALL  ] 2022-09-07 12:52:40,119 (EKRecord): fetched record: {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160119}
+[ALL  ] 2022-09-07 12:52:40,119 (ZKClientHandler): Zookeeper Client is not connected
+[WARN ] 2022-09-07 12:52:40,120 (ZKClientHandler): Could not update the data
+[ALL  ] 2022-09-07 12:52:40,120 (GNSClientHandler): Trying to update the record to GNS
+[DEBUG] 2022-09-07 12:52:40,120 (GNSClientHandler): Already an updator is running,  not starting another thread
+[DEBUG] 2022-09-07 12:52:40,120 (RequestResolver): Updated IP fields to own record
+[ALL  ] 2022-09-07 12:52:40,121 (GNSClientHandler): GNS connectivity checked. Still connected with old GNS server
+[ALL  ] 2022-09-07 12:52:40,121 (TopoSender): Could not retrieve the IPs of the master. Not sending any ping.
+[DEBUG] 2022-09-07 12:52:40,125 (ClusterHealthClient): Could not obtain the IP of EK master. Aborting communication
+java.lang.NullPointerException
+	at edu.tamu.cse.lenss.edgeKeeper.clusterHealth.ClusterHealthClient.communicateWiteHealthServer(ClusterHealthClient.java:45)
+	at edu.tamu.cse.lenss.edgeKeeper.clusterHealth.ClusterHealthClient.reportDeviceStatus(ClusterHealthClient.java:136)
+	at edu.tamu.cse.lenss.edgeKeeper.clusterHealth.ClusterHealthClient.run(ClusterHealthClient.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[ALL  ] 2022-09-07 12:52:40,125 (ClusterHealthClient): failed to push device status to server
+[ALL  ] 2022-09-07 12:52:40,133 (GNSClientHandler): GNS connectivity checked. Still connected with old GNS server
+[ALL  ] 2022-09-07 12:52:40,134 (EKRecord): fetched record: {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160119}
+[INFO ] 2022-09-07 12:52:40,154 (GNSClientHandler): committed update to GNS.  record:
+{"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160119}
+[ALL  ] 2022-09-07 12:52:40,155 (EKRecord): fetched record: {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160119}
+[DEBUG] 2022-09-07 12:52:40,353 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[DEBUG] 2022-09-07 12:52:40,362 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:52:40,362 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:52:40,362 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:52:40,362 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:52:40,385 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:52:40,386 (CoordinatorClient): Trying to notify Replicas
+[DEBUG] 2022-09-07 12:52:40,388 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:52:40,388 (EKRecord): Updated record= {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"MasterGuid":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160388}
+[ALL  ] 2022-09-07 12:52:40,388 (CoordinatorClient): Trying to restart ZK server
+[ALL  ] 2022-09-07 12:52:40,388 (ZKServerHandler): Trying to restart ZKServer 
+[INFO ] 2022-09-07 12:52:40,388 (ZKServerHandler): Terminatededu.tamu.cse.lenss.edgeKeeper.zk.ZKServerHandler
+[ALL  ] 2022-09-07 12:52:40,388 (ZKServerHandler): Potential ZK replicas: [192.168.2.172]
+[INFO ] 2022-09-07 12:52:40,388 (ZKServerHandler): EK Master map: {192.168.2.172=3232236204}
+[ALL  ] 2022-09-07 12:52:40,388 (ZKServerHandler): Potential ZK replicas: [192.168.2.172]
+[INFO ] 2022-09-07 12:52:40,389 (ZKServerHandler): Zookeeper data directory does not exist. Creating the directory. tmp/zookeeper
+[DEBUG] 2022-09-07 12:52:40,389 (ZKServerHandler): Checking whether this ip is in config. 192.168.2.172
+[INFO ] 2022-09-07 12:52:40,389 (ZKServerHandler): This device is acting as master. Preparing the myid. IP: 192.168.2.172
+[DEBUG] 2022-09-07 12:52:40,390 (ZKServerHandler): Prepared the myid file: tmp/zookeeper/myid	3232236204
+[INFO ] 2022-09-07 12:52:40,390 (ZKServerHandler): Trying to start new Zookeeper server
+[INFO ] 2022-09-07 12:52:40,390 (ZKServWorker): 1 ZK replica configuration: {clientPort=2181, server.3232236204=192.168.2.172:2740:3740, dataDir=tmp/zookeeper, syncLimit=5, initLimit=10, tickTime=2000}
+[ALL  ] 2022-09-07 12:52:40,391 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[DEBUG] 2022-09-07 12:52:40,394 (ZKServWorker): Parsed qquorum config: org.apache.zookeeper.server.quorum.QuorumPeerConfig@66893142
+[INFO ] 2022-09-07 12:52:40,394 (ZKServWorker): 1 Attempting to Runn standalone ZooKeeper quorum peer.
+[DEBUG] 2022-09-07 12:52:40,397 (ZKServWorker): 1Successfully Running standalone ZooKeeper quorum peer.
+[ALL  ] 2022-09-07 12:52:40,398 (ZooKeeperServerMain): Problem shutting down the Single instance Zookeeper server
+java.lang.NullPointerException
+	at org.apache.zookeeper.server.ZooKeeperServerMain.shutdown(ZooKeeperServerMain.java:132)
+	at edu.tamu.cse.lenss.edgeKeeper.zk.ZKServSingle.terminate(ZKServSingle.java:21)
+	at edu.tamu.cse.lenss.edgeKeeper.zk.ZKServSingle$1.run(ZKServSingle.java:31)
+[INFO ] 2022-09-07 12:52:40,398 (ZooKeeperServerMain): Terminatededu.tamu.cse.lenss.edgeKeeper.zk.ZKServSingle
+[INFO ] 2022-09-07 12:52:40,398 (EKHandler): Single instance Zookeeper server is started
+[ALL  ] 2022-09-07 12:52:40,398 (CoordinatorClient): Restarted ZK server
+[DEBUG] 2022-09-07 12:52:40,398 (ZooKeeperServerMain): Starting Standalone ZK Server.
+[ALL  ] 2022-09-07 12:52:40,398 (CoordinatorClient): Trying to restart ZK client
+[INFO ] 2022-09-07 12:52:40,399 (ZKClientHandler): Terminated ZKClientHandler
+[INFO ] 2022-09-07 12:52:40,451 (ZKClientHandler): Starting ZKClient for server=192.168.2.172:2181,
+[ALL  ] 2022-09-07 12:52:40,469 (CoordinatorClient): Restarted ZK client
+[ALL  ] 2022-09-07 12:52:40,470 (ZKClientHandler): Zookeeper Client is not connected
+[ALL  ] 2022-09-07 12:52:40,470 (CoordinatorClient): Trying to restart ZK client
+[ALL  ] 2022-09-07 12:52:40,470 (ZKClientHandler): closing Zookeeper client
+[INFO ] 2022-09-07 12:52:40,486 (ZKClientHandler): Terminated ZKClientHandler
+[INFO ] 2022-09-07 12:52:40,487 (ZKClientHandler): Starting ZKClient for server=192.168.2.172:2181,
+[ALL  ] 2022-09-07 12:52:40,489 (CoordinatorClient): Restarted ZK client
+[ALL  ] 2022-09-07 12:52:40,490 (ZKClientHandler): Preparing GUID data record for edge merger
+[ALL  ] 2022-09-07 12:52:40,490 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:52:40,491 (ZKClientHandler): Could not fetch GUID informations as the cache is null
+[ALL  ] 2022-09-07 12:52:40,491 (ZKClientHandler): Cache is not initialized returning null
+[ERROR] 2022-09-07 12:52:40,491 (CoordinatorClient): GUID merge data is null
+[ALL  ] 2022-09-07 12:52:40,494 (ZKClientHandler): curator event state=CONNECTED
+[INFO ] 2022-09-07 12:52:40,495 (ZKClientHandler): Zookeeper connection established. Starting to cache.
+[DEBUG] 2022-09-07 12:52:40,506 (ZKClientHandler): Created new EK cluster
+[DEBUG] 2022-09-07 12:52:40,508 (ZKClientHandler): Created new EK name record path
+[DEBUG] 2022-09-07 12:52:40,517 (ZKClientHandler): Created the Znode for own GUID
+[ALL  ] 2022-09-07 12:52:40,517 (ZKClientHandler): Trying to update current name record
+[ALL  ] 2022-09-07 12:52:40,517 (EKRecord): fetched record: {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"MasterGuid":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160388}
+[DEBUG] 2022-09-07 12:52:40,522 (ZKClientHandler): Update own data to Zookeeper: {"A":{"record":["192.168.2.172"],"ttl":0},"netAddress":["192.168.2.172"],"MasterGuid":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","EKaccountName":"tesla13.distressnet.org","UPDATE_TIME":1662573160388}
+[INFO ] 2022-09-07 12:52:40,529 (ZKClientHandler): Started caching the EK cluster updates
+[ALL  ] 2022-09-07 12:52:40,530 (ZKClientHandler): Cache client state change. New stat=NODE_ADDED
+[ALL  ] 2022-09-07 12:52:40,531 (ZKClientHandler): Cache client state change. New stat=NODE_ADDED
+[ALL  ] 2022-09-07 12:52:40,531 (ZKClientHandler): Cache client state change. New stat=INITIALIZED
+[ALL  ] 2022-09-07 12:52:50,119 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:52:50,391 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:52:50,408 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:52:50,411 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:52:50,490 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:52:50,508 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:52:50,509 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:52:50,509 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:52:50,509 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:52:50,511 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:52:50,513 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:53:00,120 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:53:00,412 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:53:00,424 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:00,428 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:00,514 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:53:00,525 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:53:00,525 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:53:00,525 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:53:00,525 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:53:00,525 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:53:00,526 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:53:10,121 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:53:10,121 (GNSClientHandler): checking GNS client connection
+[ALL  ] 2022-09-07 12:53:10,129 (GNSClientHandler): GNS connectivity checked. Still connected with old GNS server
+[DEBUG] 2022-09-07 12:53:10,134 (ClusterHealthServer): CHS Cluster Monitor Server handled a request from 192.168.2.172 in 1 milli seconds.
+[DEBUG] 2022-09-07 12:53:10,134 (ClusterHealthClient): CHS client successfully communicated with master with master IP 192.168.2.172 in 2 milli seconds.
+[ALL  ] 2022-09-07 12:53:10,134 (ClusterHealthClient): device status pushed to server succesfully
+[ALL  ] 2022-09-07 12:53:10,429 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:53:10,448 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:10,456 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:10,526 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:53:10,533 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:53:10,533 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:53:10,533 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:53:10,533 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:53:10,533 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:53:10,534 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:53:10,534 (ZKClientHandler): Preparing GUID data record for edge merger
+[ALL  ] 2022-09-07 12:53:10,537 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:53:20,123 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:53:20,457 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:53:20,466 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:20,468 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:20,534 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:53:20,555 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:53:20,555 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:53:20,555 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:53:20,556 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:53:20,557 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:53:20,559 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:53:30,124 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:53:30,469 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:53:30,488 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:30,491 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:30,560 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:53:30,574 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:53:30,574 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:53:30,575 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:53:30,575 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:53:30,576 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:53:30,577 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:53:40,126 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:53:40,129 (GNSClientHandler): checking GNS client connection
+[ALL  ] 2022-09-07 12:53:40,137 (GNSClientHandler): GNS connectivity checked. Still connected with old GNS server
+[DEBUG] 2022-09-07 12:53:40,147 (ClusterHealthServer): CHS Cluster Monitor Server handled a request from 192.168.2.172 in 1 milli seconds.
+[DEBUG] 2022-09-07 12:53:40,147 (ClusterHealthClient): CHS client successfully communicated with master with master IP 192.168.2.172 in 2 milli seconds.
+[ALL  ] 2022-09-07 12:53:40,148 (ClusterHealthClient): device status pushed to server succesfully
+[ALL  ] 2022-09-07 12:53:40,492 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:53:40,512 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:40,518 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:40,578 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:53:40,593 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:53:40,593 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:53:40,593 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:53:40,593 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:53:40,594 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:53:40,596 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:53:40,597 (ZKClientHandler): Preparing GUID data record for edge merger
+[ALL  ] 2022-09-07 12:53:40,597 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:53:40,598 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:53:50,128 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:53:50,519 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:53:50,527 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:50,528 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:53:50,597 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:53:50,616 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:53:50,616 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:53:50,616 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:53:50,616 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:53:50,618 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:53:50,618 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:54:00,129 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:54:00,529 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:54:00,535 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:00,536 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:00,619 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:54:00,633 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:54:00,633 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:54:00,633 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:54:00,634 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:54:00,634 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:54:00,635 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:54:10,131 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:54:10,138 (GNSClientHandler): checking GNS client connection
+[ALL  ] 2022-09-07 12:54:10,146 (GNSClientHandler): GNS connectivity checked. Still connected with old GNS server
+[DEBUG] 2022-09-07 12:54:10,157 (ClusterHealthServer): CHS Cluster Monitor Server handled a request from 192.168.2.172 in 0 milli seconds.
+[DEBUG] 2022-09-07 12:54:10,157 (ClusterHealthClient): CHS client successfully communicated with master with master IP 192.168.2.172 in 0 milli seconds.
+[ALL  ] 2022-09-07 12:54:10,158 (ClusterHealthClient): device status pushed to server succesfully
+[ALL  ] 2022-09-07 12:54:10,537 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:54:10,554 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:10,556 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:10,635 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:54:10,649 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:54:10,650 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:54:10,650 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:54:10,650 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:54:10,652 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:54:10,654 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:54:10,655 (ZKClientHandler): Preparing GUID data record for edge merger
+[ALL  ] 2022-09-07 12:54:10,655 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:54:20,132 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:54:20,557 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:54:20,576 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:20,581 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:20,654 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:54:20,664 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:54:20,664 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:54:20,664 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:54:20,664 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:54:20,665 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:54:20,665 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:54:30,133 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:54:30,582 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:54:30,590 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:30,591 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:30,666 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:54:30,676 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:54:30,676 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:54:30,676 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:54:30,676 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:54:30,676 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:54:30,677 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:54:40,134 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[ALL  ] 2022-09-07 12:54:40,146 (GNSClientHandler): checking GNS client connection
+[ALL  ] 2022-09-07 12:54:40,155 (GNSClientHandler): GNS connectivity checked. Still connected with old GNS server
+[DEBUG] 2022-09-07 12:54:40,172 (ClusterHealthServer): CHS Cluster Monitor Server handled a request from 192.168.2.172 in 0 milli seconds.
+[DEBUG] 2022-09-07 12:54:40,172 (ClusterHealthClient): CHS client successfully communicated with master with master IP 192.168.2.172 in 1 milli seconds.
+[ALL  ] 2022-09-07 12:54:40,173 (ClusterHealthClient): device status pushed to server succesfully
+[ALL  ] 2022-09-07 12:54:40,592 (TopoHandler): Own device IP addresses remains same. No need to update[192.168.2.172]
+[DEBUG] 2022-09-07 12:54:40,611 (TopoHandler): Current Graph | ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:40,616 (TopoHandler): Exported graph ================Topology==============
+Node = EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 | EDGE_MASTER | {192.168.2.172=WIFI}
+[ALL  ] 2022-09-07 12:54:40,677 (CoordinatorClient): Trying to reconfigure the EdgeStatus
+[DEBUG] 2022-09-07 12:54:40,689 (CoordinatorClient): IPs 192.168.2.172 connected with 0 clients
+[ALL  ] 2022-09-07 12:54:40,690 (CoordinatorClient): IP address for replica EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582 remained same
+[ALL  ] 2022-09-07 12:54:40,690 (CoordinatorClient): replica map size=1 no of replica needed =1
+[ALL  ] 2022-09-07 12:54:40,690 (CoordinatorClient): The replica status remained same after reset
+[DEBUG] 2022-09-07 12:54:40,692 (CoordinatorClient): After resetting the edge Status as master, the edge Status is {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[DEBUG] 2022-09-07 12:54:40,693 (CoordinatorClient):  Valid replica reached {"replicaStatus":"FORMED","masterGUID":"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582","masterIPs":["192.168.2.172"],"replicaMap":{"EB634DEDFB2EA94193AAC36EB9A7E605AFAA5582":"192.168.2.172"}}
+[ALL  ] 2022-09-07 12:54:40,694 (ZKClientHandler): Preparing GUID data record for edge merger
+[ALL  ] 2022-09-07 12:54:40,694 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:54:40,695 (CoordinatorClient): No edge neighbor found.
+[ALL  ] 2022-09-07 12:54:50,136 (TopoHandler): Could not communicate with cloud IP: 192.168.2.172
+[INFO ] 2022-09-07 12:54:50,540 (EKHandler): EdgeKeeper shutting down
+[INFO ] 2022-09-07 12:54:50,540 (GNSClientHandler): Terminated edu.tamu.cse.lenss.edgeKeeper.server.GNSClientHandler
+[ALL  ] 2022-09-07 12:54:50,541 (ClusterHealthServer): CHS terminate function called.
+[INFO ] 2022-09-07 12:54:50,541 (ClusterHealthServer): CHS Terminated edu.tamu.cse.lenss.edgeKeeper.clusterHealth.ClusterHealthServer
+[DEBUG] 2022-09-07 12:54:50,541 (ClusterHealthServer): Exception occured for accepting client request 
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at edu.tamu.cse.lenss.edgeKeeper.clusterHealth.ClusterHealthServer.run(ClusterHealthServer.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[INFO ] 2022-09-07 12:54:50,541 (DNSServer): Terminatededu.tamu.cse.lenss.edgeKeeper.dns.DNSServer
+[DEBUG] 2022-09-07 12:54:50,542 (TopoReceiver): Problem in accepting UDP packet 
+java.net.SocketException: Socket closed
+	at java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812)
+	at edu.tamu.cse.lenss.edgeKeeper.topology.TopoReceiver.run(TopoReceiver.java:41)
+[INFO ] 2022-09-07 12:54:50,542 (TopoHandler): Terminated edu.tamu.cse.lenss.edgeKeeper.topology.TopoCloudServer
+[INFO ] 2022-09-07 12:54:50,543 (TopoHandler): Terminated edu.tamu.cse.lenss.edgeKeeper.topology.TopoCloudClient
+[ERROR] 2022-09-07 12:54:50,543 (TopoHandler): Problem in sleep
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.tamu.cse.lenss.edgeKeeper.topology.TopoCloudClient.run(TopoCloudClient.java:40)
+[INFO ] 2022-09-07 12:54:50,543 (TopoHandler): Terminated edu.tamu.cse.lenss.edgeKeeper.topology.TopoHandler
+[INFO ] 2022-09-07 12:54:50,544 (CoordinatorServer): Terminated edu.tamu.cse.lenss.edgeKeeper.server.CoordinatorServer
+[WARN ] 2022-09-07 12:54:50,544 (CoordinatorServer): Problem in accepting client socet
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at edu.tamu.cse.lenss.edgeKeeper.server.CoordinatorServer.run(CoordinatorServer.java:34)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[INFO ] 2022-09-07 12:54:50,544 (CoordinatorClient): Terminated edu.tamu.cse.lenss.edgeKeeper.server.CoordinatorClient
+[ALL  ] 2022-09-07 12:54:50,545 (ZKClientHandler): closing cache
+[ALL  ] 2022-09-07 12:54:50,545 (ZKClientHandler): closing Zookeeper client
+[INFO ] 2022-09-07 12:54:50,546 (ZKClientHandler): Terminated ZKClientHandler
+[INFO ] 2022-09-07 12:54:50,552 (ZooKeeperServerMain): Terminatededu.tamu.cse.lenss.edgeKeeper.zk.ZKServSingle
+[INFO ] 2022-09-07 12:54:50,552 (EKHandler): This ZK server is stopped
+[INFO ] 2022-09-07 12:54:50,553 (ZKServWorker): 1 Terminated edu.tamu.cse.lenss.edgeKeeper.zk.ZKServWorker
+[INFO ] 2022-09-07 12:54:50,553 (ZKServerHandler): Terminatededu.tamu.cse.lenss.edgeKeeper.zk.ZKServerHandler
+[ALL  ] 2022-09-07 12:54:50,553 (ClusterHealthClient): CHS terminate function called.
+[INFO ] 2022-09-07 12:54:50,553 (ClusterHealthClient): CHS Terminated edu.tamu.cse.lenss.edgeKeeper.clusterHealth.ClusterHealthClient
+[DEBUG] 2022-09-07 12:54:50,553 (ZooKeeperServerMain): Successfully Started Standalone ZK Server.
+[INFO ] 2022-09-07 12:54:50,553 (RequestServer): Closed the Serversocket for JAVA
+[ERROR] 2022-09-07 12:54:50,553 (RequestServer): Error in accepting client connection
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at edu.tamu.cse.lenss.edgeKeeper.server.RequestServer.run(RequestServer.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[INFO ] 2022-09-07 12:54:50,553 (RequestServer): Terminated edu.tamu.cse.lenss.edgeKeeper.server.RequestServer server type: JAVA
+[DEBUG] 2022-09-07 12:54:50,554 (RequestServer): Trying to shutdown the Executors and its associated threads
+[INFO ] 2022-09-07 12:54:50,554 (RequestServer): Closed the Serversocket for CPP
+[DEBUG] 2022-09-07 12:54:50,554 (RequestServer): The remaining tasks shuted down: []
+[ERROR] 2022-09-07 12:54:50,554 (RequestServer): Error in accepting client connection
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at edu.tamu.cse.lenss.edgeKeeper.server.RequestServer.run(RequestServer.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[DEBUG] 2022-09-07 12:54:50,554 (RequestServer): Terminated all request Handlers
+[INFO ] 2022-09-07 12:54:50,554 (RequestServer): Terminated edu.tamu.cse.lenss.edgeKeeper.server.RequestServer server type: CPP
+[DEBUG] 2022-09-07 12:54:50,555 (RequestServer): Trying to shutdown the Executors and its associated threads
+[INFO ] 2022-09-07 12:54:50,555 (EKHandler): Terminatededu.tamu.cse.lenss.edgeKeeper.server.EKHandler$IPMonitor
+[DEBUG] 2022-09-07 12:54:50,555 (RequestServer): The remaining tasks shuted down: []
+[DEBUG] 2022-09-07 12:54:50,556 (RequestServer): Terminated all request Handlers
+[ALL  ] 2022-09-07 12:54:50,556 (NanoHTTPD): Communication with the client broken
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at fi.iki.elonen.NanoHTTPD$ServerRunnable.run(NanoHTTPD.java:1696)
+	at java.lang.Thread.run(Thread.java:750)
+[ERROR] 2022-09-07 12:54:50,556 (NanoHTTPD): Could not stop all connections
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1257)
+	at java.lang.Thread.join(Thread.java:1331)
+	at fi.iki.elonen.NanoHTTPD.stop(NanoHTTPD.java:2275)
+	at edu.tamu.cse.lenss.edgeKeeper.clusterHealth.HealthWebView.terminate(HealthWebView.java:250)
+	at edu.tamu.cse.lenss.edgeKeeper.server.EKHandler$ShutDownHook.run(EKHandler.java:347)
+[INFO ] 2022-09-07 12:54:50,557 (HealthWebView): TerminatedHealthWebView
+[DEBUG] 2022-09-07 12:54:50,558 (EKHandler): Stopped EdgeKeeper. ConcurrentServices: 0
