@@ -1,0 +1,5 @@
+1. ant build
+2. change ip address to local ip address using ifconfig in testbed/ek.properties and testbed/conf/gigapaxos.properties
+3. sudo ./gns-server_startup.sh start
+4. java -jar EdgeKeeper-Linux.jar
+5. sudo .gns-server_startup.sh stop
